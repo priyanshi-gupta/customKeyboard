@@ -1,0 +1,307 @@
+--------- beginning of system
+07-03 16:27:58.238  1907  2303 V AlarmManager: sending alarm {fb296a5 type 1 *alarm*:DXCoreAlarmReceiver}
+07-03 16:27:58.242  1907  2303 V AlarmManager: sending alarm {fff3d58 type 3 *alarm*:com.google.android.gms/.lockbox.LockboxAlarmReceiver}
+07-03 16:27:58.250  1907  1907 V AlarmManager: done {fb296a5, *alarm*:DXCoreAlarmReceiver} [12ms]
+07-03 16:27:58.283  1907  1907 V AlarmManager: done {fff3d58, *alarm*:com.google.android.gms/.lockbox.LockboxAlarmReceiver} [45ms]
+--------- beginning of main
+07-03 16:27:58.306  1907  3006 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 16:27:58.705  2389  2720 I NetworkController.MotorolaMobileSignalController(9): MotorolaMobilePhoneStateListener.onSignalStrengthsChanged: Entered: signalStrength=SignalStrength: 15 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=4
+07-03 16:27:59.600  2389  2720 D MotoNetwCtrlr: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+07-03 16:27:59.600  2389  2720 I MotoNetwCtrlr.MotoWifiSignalCtrlr: handleBroadcast: Entered: Intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } Action=android.net.wifi.RSSI_CHANGED
+07-03 16:28:00.000  1907  2303 V AlarmManager: sending alarm {9aa8c2c type 3 *alarm*:android.intent.action.TIME_TICK}
+07-03 16:28:00.090  1907  1907 V AlarmManager: done {9aa8c2c, *alarm*:android.intent.action.TIME_TICK} [90ms]
+07-03 16:28:00.588  2389  2720 D MotoNetwCtrlr: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+07-03 16:28:00.592  2389  2720 I MotoNetwCtrlr.MotoWifiSignalCtrlr: handleBroadcast: Entered: Intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } Action=android.net.wifi.RSSI_CHANGED
+07-03 16:28:01.075  1907  2303 V AlarmManager: sending alarm {6ac8288 type 2 *walarm*:com.whatsapp.alarm.AVAILABLE_TIMEOUT}
+07-03 16:28:01.090  1907  1907 V AlarmManager: done {6ac8288, *walarm*:com.whatsapp.alarm.AVAILABLE_TIMEOUT} [15ms]
+07-03 16:28:01.316  2389  2720 I NetworkController.MotorolaMobileSignalController(9): MotorolaMobilePhoneStateListener.onSignalStrengthsChanged: Entered: signalStrength=SignalStrength: 17 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=4
+07-03 16:28:02.358  1907  3005 V InputMethodManagerService: Adding window token: android.os.Binder@bcb3f34
+07-03 16:28:02.367 26227 26227 I LatinIme: onDeactivate() : Latency Metrics = {}
+07-03 16:28:02.367 26227 26227 I LatinIme: Applicator.applyDiff-time = []
+07-03 16:28:02.367 26227 26227 I LatinIme: Applicator.applySuggestionDiff-time = [0 -> [0 -> [Min = 9 : Average = 9 : Max = 9]]
+07-03 16:28:02.367 26227 26227 I LatinIme: Applicator.changeKeyboardState-time = []
+07-03 16:28:02.367 26227 26227 I LatinIme: Decoder.createOrResetDecoder-time = []
+07-03 16:28:02.367 26227 26227 I LatinIme: Decoder.decodeTouch-time = []
+07-03 16:28:02.367 26227 26227 I LatinIme: Decoder.fetchSuggestions-time = [0 -> [0 -> [Min = 315 : Average = 315 : Max = 315]]
+07-03 16:28:02.367 26227 26227 I LatinIme: Decoder.flushPersonalizedData-time = []
+07-03 16:28:02.367 26227 26227 I LatinIme: Decoder.getLoudsLmContentVersion-time = []
+07-03 16:28:02.367 26227 26227 I LatinIme: Decoder.loadLanguageModel.BLACKLIST-time = []
+07-03 16:28:02.367 26227 26227 I LatinIme: Decoder.loadLanguageModel.CONTACTS-time = []
+07-03 16:28:02.367 26227 26227 I LatinIme: Decoder.loadLanguageModel.MAIN-time = []
+07-03 16:28:02.367 26227 26227 I LatinIme: Decoder.loadLanguageModel.PERSONAL_DICTIONARY-time = []
+07-03 16:28:02.367 26227 26227 I LatinIme: Decoder.loadLanguageModel.USER_HISTORY-time = []
+07-03 16:28:02.367 26227 26227 I LatinIme: Decoder.parseInputContext-time = [0 -> [0 -> [Min = 0 : Average = 0 : Max = 0]]
+07-03 16:28:02.367 26227 26227 I LatinIme: Decoder.selectTextCandidate-time = []
+07-03 16:28:02.367 26227 26227 I LatinIme: Decoder.setKeyboardLayout-time = [0 -> [0 -> [Min = 292 : Average = 292 : Max = 292]]
+07-03 16:28:02.367 26227 26227 I LatinIme: Decoder.setRuntimeParams-time = [0 -> [0 -> [Min = 0 : Average = 0 : Max = 0]]
+07-03 16:28:02.367 26227 26227 I LatinIme: DecoderWrapper.createOrResetDecoder-time = []
+07-03 16:28:02.367 26227 26227 I LatinIme: DecoderWrapper.decodeTouch-time = []
+07-03 16:28:02.367 26227 26227 I LatinIme: DecoderWrapper.fetchSuggestions-time = [0 -> [0 -> [Min = 315 : Average = 315 : Max = 315]]
+07-03 16:28:02.367 26227 26227 I LatinIme: DecoderWrapper.selectTextCandidate-time = []
+07-03 16:28:02.367 26227 26227 I LatinIme: onDeactivate() : Input Context Metrics = 
+07-03 16:28:02.369  1907  3355 E InputMethodManagerService: Ignoring updateStatusIcon due to an invalid token. uid:1000 token:android.os.Binder@9725ca2
+07-03 16:28:02.488 26227 26227 I ClearcutLoggerManager: stopLogging()
+07-03 16:28:02.507  3360  3360 V ConnectivityManager: isActiveNetworkMetered() returns:false
+07-03 16:28:02.514 26227 26546 I ClearcutLoggerManager: flushAndDisconnect()
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: flushAndDisconnect() : Latency = {}
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Applicator.applyDiff-time = []
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Applicator.applySuggestionDiff-time = [0 -> [0 -> [9 = 1]]
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Applicator.changeKeyboardState-time = []
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Decoder.createOrResetDecoder-time = []
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Decoder.decodeTouch-time = []
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Decoder.fetchSuggestions-time = [0 -> [0 -> [315 = 1]]
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Decoder.flushPersonalizedData-time = []
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Decoder.getLoudsLmContentVersion-time = []
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Decoder.loadLanguageModel.BLACKLIST-time = []
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Decoder.loadLanguageModel.CONTACTS-time = []
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Decoder.loadLanguageModel.MAIN-time = []
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Decoder.loadLanguageModel.PERSONAL_DICTIONARY-time = []
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Decoder.loadLanguageModel.USER_HISTORY-time = []
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Decoder.parseInputContext-time = [0 -> [0 -> [0 = 1]]
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Decoder.selectTextCandidate-time = []
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Decoder.setKeyboardLayout-time = [0 -> [0 -> [292 = 1]]
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: Decoder.setRuntimeParams-time = [0 -> [0 -> [0 = 1]]
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: DecoderWrapper.createOrResetDecoder-time = []
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: DecoderWrapper.decodeTouch-time = []
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: DecoderWrapper.fetchSuggestions-time = [0 -> [0 -> [315 = 1]]
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: DecoderWrapper.selectTextCandidate-time = []
+07-03 16:28:02.515 26227 26546 I ClearcutLoggerManager: flushAndDisconnect() : Download = {}
+07-03 16:28:02.550 26227 26546 I ClearcutLoggerManager: flushAndDisconnect() : Input = {}
+07-03 16:28:02.550 26227 26546 I ClearcutLoggerManager: Input.action = []
+07-03 16:28:02.550 26227 26546 I ClearcutLoggerManager: Input.switchToNextLanguage = [0 -> [0 -> [Count = 1]]
+07-03 16:28:02.550 26227 26546 I ClearcutLoggerManager: Input.timeout = []
+07-03 16:28:02.569 26227 26227 I ClearcutLoggerManager: onFinishInput()
+07-03 16:28:02.589  2977  2977 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:763 android.content.ContextWrapper.sendBroadcast:396 com.motorola.motocare.internal.settings.SettingsTrigger$1.onChange:435 android.database.ContentObserver.onChange:130 android.database.ContentObserver.onChange:145 
+07-03 16:28:02.602 26227 26323 E Surface : getSlotFromBufferLocked: unknown buffer: 0xb9692da0
+07-03 16:28:02.609  2389  2720 D MotoNetwCtrlr: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+07-03 16:28:02.611  2389  2720 I MotoNetwCtrlr.MotoWifiSignalCtrlr: handleBroadcast: Entered: Intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } Action=android.net.wifi.RSSI_CHANGED
+07-03 16:28:03.009  6170  6276 D Checkin : publish the event [tag = MOT_DEVICE_STATS_L1 event name = SettingLogs]
+07-03 16:28:03.567 26227 26546 I ClearcutLoggerManager: flushAndDisconnect() : Success = false : Time = 3
+07-03 16:28:04.104 26038 26038 I SoftKeyboard: onPress: -5
+07-03 16:28:04.164   406   592 I ThermalEngine: Sensor:xo_therm_pu2:45000 mC
+07-03 16:28:04.169   406   591 I ThermalEngine: Sensor:batt_therm:36500 mC
+07-03 16:28:04.328 26038 26038 I SoftKeyboard: swipeLeft
+07-03 16:28:04.362 26038 26038 I SoftKeyboard: ic.deleteSurroundingText(str.length(), 0)
+07-03 16:28:04.408  2445  2445 D ConnectivityManager: getMobileDataEnabled()+ subId=9
+07-03 16:28:04.408  3017  9543 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=9 phoneId=0
+07-03 16:28:04.414  3017  9543 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=9 retVal=true
+07-03 16:28:04.414  2445  2445 D ConnectivityManager: getMobileDataEnabled()- subId=9 retVal=true
+07-03 16:28:04.468   359   359 I SFPerfTracer:      triggers: (rate: 755:20640) (compose: 0:20) (post: 0:12) (render: 64:1948) (2:367302 frames) (3:420171)
+07-03 16:28:04.469   359   359 D SFPerfTracer:        layers: (5:12) (FocusedStackFrame (0xb71ba600): 0:4302)* (DimLayer (0xb7280f80): 0:61)* (DimLayer (0xb7283cf8): 0:8)* (StatusBar (0xb7260098): 0:100725) (com.android.systemui.ImageWallpaper (0xb7278a30): 0:3520)* (DimLayer (0xb7279cf8): 0:114)* (DimLayer (0xb72872c0): 0:25)* (NavigationBar (0xb71ee578): 0:189) (com.google.android.keep/com.google.android.keep.activities.BrowseActivity (0xb7266870): 0:101) (InputMethod (0xb727f888): 0:31)- (InputMethod (0xb727afc0): 1:21) (PopupWindow:9451abc (0xb727f888): 2:6) 
+07-03 16:28:05.111 26038 26038 I SoftKeyboard: onPress: -5
+07-03 16:28:05.118 26038 26038 I SoftKeyboard: MOVING: 'left: -106.97815
+07-03 16:28:05.118 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.128 26038 26038 I SoftKeyboard: Text Before Cursor: Hello therGssjsksZdswsxvD
+07-03 16:28:05.153 26038 26038 I SoftKeyboard: MOVING: 'left: -137.9636
+07-03 16:28:05.154 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.155 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.174 26038 26038 I SoftKeyboard: MOVING: 'left: -73.74231
+07-03 16:28:05.174 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.175 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.192 26038 26038 I SoftKeyboard: MOVING: 'left: -73.78534
+07-03 16:28:05.192 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.193 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.208 26038 26038 I SoftKeyboard: MOVING: 'left: -69.033035
+07-03 16:28:05.208 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.209 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.225 26038 26038 I SoftKeyboard: MOVING: 'left: -63.720757
+07-03 16:28:05.225 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.226 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.233 26038 26038 I SoftKeyboard: MOVING: 'left: -48.855156
+07-03 16:28:05.233 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.233 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.260 26038 26038 I SoftKeyboard: MOVING: 'left: -33.405647
+07-03 16:28:05.260 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.262 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.263 26038 26038 I SoftKeyboard: ActionUP: -5
+07-03 16:28:05.263 26038 26038 I SoftKeyboard: swipeLeft
+07-03 16:28:05.263 26038 26038 I SoftKeyboard: ic.deleteSurroundingText(str.length(), 0)
+07-03 16:28:05.752 26038 26038 I SoftKeyboard: onPress: -5
+07-03 16:28:05.765   359  1046 I SFPerfTracer:      triggers: (rate: 0:96) (29913 sw vsyncs) (0 skipped) (32:591723 vsyncs) (34:687169)
+07-03 16:28:05.766 26038 26038 I SoftKeyboard: MOVING: 'left: -76.28577
+07-03 16:28:05.766 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.766 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.782 26038 26038 I SoftKeyboard: MOVING: 'left: -26.855957
+07-03 16:28:05.782 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.783 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.815 26038 26038 I SoftKeyboard: MOVING: 'left: -29.086853
+07-03 16:28:05.816 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.817 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.832 26038 26038 I SoftKeyboard: MOVING: 'left: -71.77142
+07-03 16:28:05.832 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.833 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.854 26038 26038 I SoftKeyboard: MOVING: 'left: -61.990723
+07-03 16:28:05.855 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.855 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.874 26038 26038 I SoftKeyboard: MOVING: 'left: -58.509277
+07-03 16:28:05.874 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.875 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.891 26038 26038 I SoftKeyboard: MOVING: 'left: -73.23462
+07-03 16:28:05.891 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.891 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.907 26038 26038 I SoftKeyboard: MOVING: 'left: -67.95744
+07-03 16:28:05.908 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.909 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.924 26038 26038 I SoftKeyboard: MOVING: 'left: -69.74011
+07-03 16:28:05.924 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.925 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.942 26038 26038 I SoftKeyboard: MOVING: 'left: -65.30428
+07-03 16:28:05.942 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:05.943 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:05.945 26038 26038 I SoftKeyboard: ActionUP: -5
+07-03 16:28:05.945 26038 26038 I SoftKeyboard: swipeLeft
+07-03 16:28:05.945 26038 26038 I SoftKeyboard: ic.deleteSurroundingText(str.length(), 0)
+07-03 16:28:06.528 26038 26038 I SoftKeyboard: onPress: -5
+07-03 16:28:06.532 26038 26038 I SoftKeyboard: MOVING: 'left: -81.974976
+07-03 16:28:06.532 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:06.532 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:06.549 26038 26038 I SoftKeyboard: MOVING: 'left: -44.862366
+07-03 16:28:06.549 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:06.550 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:06.577 26038 26038 I SoftKeyboard: MOVING: 'left: -59.226868
+07-03 16:28:06.577 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:06.580 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:06.600 26038 26038 I SoftKeyboard: MOVING: 'left: -127.34592
+07-03 16:28:06.600 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:06.602 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:06.618 26038 26038 I SoftKeyboard: MOVING: 'left: -70.15042
+07-03 16:28:06.618 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:06.619 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:06.644 26038 26038 I SoftKeyboard: MOVING: 'left: -71.74356
+07-03 16:28:06.644 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:06.645 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:06.673 26038 26038 I SoftKeyboard: MOVING: 'left: -66.80989
+07-03 16:28:06.673 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:06.674 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:06.690 26038 26038 I SoftKeyboard: MOVING: 'left: -36.886
+07-03 16:28:06.690 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:06.691 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:06.712 26038 26038 I SoftKeyboard: ActionUP: -5
+07-03 16:28:06.712 26038 26038 I SoftKeyboard: swipeLeft
+07-03 16:28:06.712 26038 26038 I SoftKeyboard: ic.deleteSurroundingText(str.length(), 0)
+07-03 16:28:07.228 26038 26038 I SoftKeyboard: onPress: -5
+07-03 16:28:07.249 26038 26038 I SoftKeyboard: MOVING: 'left: -141.75708
+07-03 16:28:07.249 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:07.249 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:07.269 26038 26038 I SoftKeyboard: MOVING: 'left: -68.17636
+07-03 16:28:07.269 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:07.271   359   359 I SFPerfTracer:      triggers: (rate: 755:20642) (compose: 0:20) (post: 0:12) (render: 64:1948) (23:367401 frames) (24:420281)
+07-03 16:28:07.271   359   359 D SFPerfTracer:        layers: (5:11) (FocusedStackFrame (0xb71ba600): 0:4302)* (DimLayer (0xb7280f80): 0:61)* (DimLayer (0xb7283cf8): 0:8)* (StatusBar (0xb7260098): 0:100726) (com.android.systemui.ImageWallpaper (0xb7278a30): 0:3520)* (DimLayer (0xb7279cf8): 0:114)* (DimLayer (0xb72872c0): 0:25)* (NavigationBar (0xb71ee578): 0:189) (com.google.android.keep/com.google.android.keep.activities.BrowseActivity (0xb7266870): 1:108) (InputMethod (0xb727afc0): 0:44) (PopupWindow:9451abc (0xb727f888): 23:110) 
+07-03 16:28:07.271 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:07.304 26038 26038 I SoftKeyboard: MOVING: 'left: -148.88086
+07-03 16:28:07.304 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:07.305 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:07.343 26038 26038 I SoftKeyboard: MOVING: 'left: -127.85391
+07-03 16:28:07.343 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:07.344 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:07.346 26038 26038 I SoftKeyboard: ActionUP: -5
+07-03 16:28:07.346 26038 26038 I SoftKeyboard: swipeLeft
+07-03 16:28:07.346 26038 26038 I SoftKeyboard: ic.deleteSurroundingText(str.length(), 0)
+07-03 16:28:07.982   359  1046 I SFPerfTracer:      triggers: (rate: 0:96) (29913 sw vsyncs) (0 skipped) (23:591825 vsyncs) (25:687279)
+07-03 16:28:08.731 26038 26038 I SoftKeyboard: onPress: -5
+07-03 16:28:08.749 26038 26038 I SoftKeyboard: MOVING: 'left: -101.13898
+07-03 16:28:08.749 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:08.749 26038 26038 I SoftKeyboard: Text Before Cursor: Hello therGssjsksZdswsxvD
+07-03 16:28:08.775 26038 26038 I SoftKeyboard: MOVING: 'left: -51.706238
+07-03 16:28:08.775 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:08.791 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:08.824 26038 26038 I SoftKeyboard: MOVING: 'left: -203.96738
+07-03 16:28:08.824 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:08.825 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:08.865 26038 26038 I SoftKeyboard: MOVING: 'left: -142.33922
+07-03 16:28:08.865 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:08.871 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:08.885 26038 26038 I SoftKeyboard: MOVING: 'left: -41.84819
+07-03 16:28:08.885 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:08.886 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:08.887 26038 26038 I SoftKeyboard: ActionUP: -5
+07-03 16:28:08.887 26038 26038 I SoftKeyboard: swipeLeft
+07-03 16:28:08.887 26038 26038 I SoftKeyboard: ic.deleteSurroundingText(str.length(), 0)
+07-03 16:28:09.085  2389  2720 I NetworkController.MotorolaMobileSignalController(9): MotorolaMobilePhoneStateListener.onSignalStrengthsChanged: Entered: signalStrength=SignalStrength: 16 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=4
+07-03 16:28:10.669 26038 26038 I SoftKeyboard: onPress: 108
+07-03 16:28:10.682 26038 26038 I SoftKeyboard: MOVING: 'left: -119.515656
+07-03 16:28:10.682 26038 26038 I SoftKeyboard: CurrentKey: 108
+07-03 16:28:10.703 26038 26038 I SoftKeyboard: MOVING: 'left: -53.880066
+07-03 16:28:10.703 26038 26038 I SoftKeyboard: CurrentKey: 108
+07-03 16:28:10.727 26038 26038 I SoftKeyboard: MOVING: 'left: -59.058075
+07-03 16:28:10.727 26038 26038 I SoftKeyboard: CurrentKey: 108
+07-03 16:28:10.752 26038 26038 I SoftKeyboard: MOVING: 'left: -110.34018
+07-03 16:28:10.752 26038 26038 I SoftKeyboard: CurrentKey: 108
+07-03 16:28:10.774 26038 26038 I SoftKeyboard: MOVING: 'left: -55.078094
+07-03 16:28:10.774 26038 26038 I SoftKeyboard: CurrentKey: 108
+07-03 16:28:10.798 26038 26038 I SoftKeyboard: MOVING: 'left: -53.889572
+07-03 16:28:10.798 26038 26038 I SoftKeyboard: CurrentKey: 108
+07-03 16:28:10.830 26038 26038 I SoftKeyboard: MOVING: 'left: -84.25387
+07-03 16:28:10.830 26038 26038 I SoftKeyboard: CurrentKey: 108
+07-03 16:28:10.835 26038 26038 I SoftKeyboard: ActionUP: 108
+07-03 16:28:10.835 26038 26038 I SoftKeyboard: swipeLeft
+07-03 16:28:10.835 26038 26038 I SoftKeyboard: ic.deleteSurroundingText(str.length(), 0)
+07-03 16:28:11.472 26038 26038 I SoftKeyboard: onPress: 108
+07-03 16:28:11.482 26038 26038 I SoftKeyboard: MOVING: 'left: -160.0
+07-03 16:28:11.482 26038 26038 I SoftKeyboard: CurrentKey: 108
+07-03 16:28:11.503 26038 26038 I SoftKeyboard: MOVING: 'left: -74.52292
+07-03 16:28:11.503 26038 26038 I SoftKeyboard: CurrentKey: 108
+07-03 16:28:11.527 26038 26038 I SoftKeyboard: MOVING: 'left: -69.872284
+07-03 16:28:11.527 26038 26038 I SoftKeyboard: CurrentKey: 108
+07-03 16:28:11.548 26038 26038 I SoftKeyboard: MOVING: 'left: -71.33972
+07-03 16:28:11.554 26038 26038 I SoftKeyboard: CurrentKey: 108
+07-03 16:28:11.576 26038 26038 I SoftKeyboard: MOVING: 'left: -130.95615
+07-03 16:28:11.576 26038 26038 I SoftKeyboard: CurrentKey: 108
+07-03 16:28:11.609 26038 26038 I SoftKeyboard: MOVING: 'left: -85.49981
+07-03 16:28:11.609 26038 26038 I SoftKeyboard: CurrentKey: 108
+07-03 16:28:11.642 26038 26038 I SoftKeyboard: ActionUP: 108
+07-03 16:28:11.642 26038 26038 I SoftKeyboard: swipeLeft
+07-03 16:28:11.642 26038 26038 I SoftKeyboard: ic.deleteSurroundingText(str.length(), 0)
+07-03 16:28:11.686   359   359 I SFPerfTracer:      triggers: (rate: 755:20645) (compose: 0:20) (post: 0:12) (render: 64:1948) (10:367485 frames) (11:420387)
+07-03 16:28:11.687   359   359 D SFPerfTracer:        layers: (6:13) (FocusedStackFrame (0xb71ba600): 0:4302)* (DimLayer (0xb7280f80): 0:61)* (DimLayer (0xb7283cf8): 0:8)* (StatusBar (0xb7260098): 0:100727) (com.android.systemui.ImageWallpaper (0xb7278a30): 0:3520)* (DimLayer (0xb7279cf8): 0:114)* (DimLayer (0xb72872c0): 0:25)* (NavigationBar (0xb71ee578): 0:189) (com.google.android.keep/com.google.android.keep.activities.BrowseActivity (0xb7266870): 0:118) (InputMethod (0xb727afc0): 7:67) (PopupWindow:9451abc (0xb727f888): 10:184) (PopupWindow:8b43f2 (0xb724ce58): 0:18)- (PopupWindow:8b43f2 (0xb71ebb70): 0:10) 
+07-03 16:28:11.865  1907  2319 D ConnectivityService: updateNetworkScore for NetworkAgentInfo [WIFI () - 114] to 56
+07-03 16:28:11.866  1907  2319 D ConnectivityService: rematching NetworkAgentInfo [WIFI () - 114]
+07-03 16:28:11.987 26038 26038 I SoftKeyboard: onPress: 112
+07-03 16:28:12.000 26038 26038 I SoftKeyboard: MOVING: 'left: -104.706604
+07-03 16:28:12.000 26038 26038 I SoftKeyboard: CurrentKey: 112
+07-03 16:28:12.017 26038 26038 I SoftKeyboard: MOVING: 'left: -57.2341
+07-03 16:28:12.017 26038 26038 I SoftKeyboard: CurrentKey: 112
+07-03 16:28:12.042 26038 26038 I SoftKeyboard: MOVING: 'left: -67.62616
+07-03 16:28:12.042 26038 26038 I SoftKeyboard: CurrentKey: 112
+07-03 16:28:12.060 26038 26038 I SoftKeyboard: MOVING: 'left: -73.639465
+07-03 16:28:12.060 26038 26038 I SoftKeyboard: CurrentKey: 112
+07-03 16:28:12.076 26038 26038 I SoftKeyboard: MOVING: 'left: -69.66467
+07-03 16:28:12.076 26038 26038 I SoftKeyboard: CurrentKey: 112
+07-03 16:28:12.094 26038 26038 I SoftKeyboard: MOVING: 'left: -63.94461
+07-03 16:28:12.094 26038 26038 I SoftKeyboard: CurrentKey: 112
+07-03 16:28:12.110 26038 26038 I SoftKeyboard: MOVING: 'left: -54.184387
+07-03 16:28:12.110 26038 26038 I SoftKeyboard: CurrentKey: 112
+07-03 16:28:12.127 26038 26038 I SoftKeyboard: MOVING: 'left: -54.984413
+07-03 16:28:12.127 26038 26038 I SoftKeyboard: CurrentKey: 112
+07-03 16:28:12.133 26038 26038 I SoftKeyboard: MOVING: 'left: -34.87805
+07-03 16:28:12.133 26038 26038 I SoftKeyboard: CurrentKey: 112
+07-03 16:28:12.147 26038 26038 I SoftKeyboard: ActionUP: 112
+07-03 16:28:12.147 26038 26038 I SoftKeyboard: swipeLeft
+07-03 16:28:12.147 26038 26038 I SoftKeyboard: ic.deleteSurroundingText(str.length(), 0)
+07-03 16:28:12.849   359  1046 I SFPerfTracer:      triggers: (rate: 0:96) (29913 sw vsyncs) (0 skipped) (48:591932 vsyncs) (50:687407)
+07-03 16:28:12.928 26038 26038 I SoftKeyboard: onPress: -5
+07-03 16:28:12.932 26038 26038 I SoftKeyboard: MOVING: 'left: -132.14322
+07-03 16:28:12.932 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:12.933 26038 26038 I SoftKeyboard: Text Before Cursor: Hello therGssjsksZdswsxvD
+07-03 16:28:12.955 26038 26038 I SoftKeyboard: MOVING: 'left: -61.645874
+07-03 16:28:12.955 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:12.975 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:12.992 26038 26038 I SoftKeyboard: MOVING: 'left: -134.1759
+07-03 16:28:12.993 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:12.993 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:13.015 26038 26038 I SoftKeyboard: MOVING: 'left: -65.15201
+07-03 16:28:13.022 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:13.022 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:13.043 26038 26038 I SoftKeyboard: MOVING: 'left: -38.882996
+07-03 16:28:13.043 26038 26038 I SoftKeyboard: CurrentKey: -5
+07-03 16:28:13.044 26038 26038 I SoftKeyboard: Text Before Cursor: 
+07-03 16:28:13.044 26038 26038 I SoftKeyboard: ActionUP: -5
+07-03 16:28:13.044 26038 26038 I SoftKeyboard: swipeLeft
+07-03 16:28:13.044 26038 26038 I SoftKeyboard: ic.deleteSurroundingText(str.length(), 0)
+07-03 16:28:14.169   406   592 I ThermalEngine: Sensor:xo_therm_pu2:44000 mC
+07-03 16:28:14.174   406   591 I ThermalEngine: Sensor:batt_therm:36500 mC
+07-03 16:28:14.617  2389  2720 D MotoNetwCtrlr: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+07-03 16:28:14.618  2389  2720 I MotoNetwCtrlr.MotoWifiSignalCtrlr: handleBroadcast: Entered: Intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } Action=android.net.wifi.RSSI_CHANGED
+07-03 16:28:14.870  1907  2319 D ConnectivityService: updateNetworkScore for NetworkAgentInfo [WIFI () - 114] to 60
+07-03 16:28:14.870  1907  2319 D ConnectivityService: rematching NetworkAgentInfo [WIFI () - 114]
+07-03 16:28:14.931  2612 27208 W IcingInternalCorpora: getNumBytesRead when not calculated.

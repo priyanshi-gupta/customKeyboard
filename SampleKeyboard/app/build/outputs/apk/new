@@ -1,0 +1,229 @@
+--------- beginning of main
+07-03 13:37:58.669  2389  2720 I NetworkController.MotorolaMobileSignalController(9): MotorolaMobilePhoneStateListener.onSignalStrengthsChanged: Entered: signalStrength=SignalStrength: 15 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=4
+--------- beginning of system
+07-03 13:37:59.610  1907  2305 I PowerManagerService: Waking up from sleep (uid 1000)...
+07-03 13:37:59.611  1907  1907 V KeyguardServiceDelegate: onStartedWakingUp()
+07-03 13:37:59.617  1907  2134 V KeyguardServiceDelegate: onScreenTurnedOn(showListener = com.android.server.policy.PhoneWindowManager$2@c6e7aa1)
+07-03 13:37:59.618  1907  2123 I DisplayManagerService: Display device changed state: "Built-in Screen", ON
+07-03 13:37:59.622   359   359 D SurfaceFlinger: Set power mode=2, type=0 flinger=0xb7139df8
+07-03 13:37:59.622   359   359 D qdhwcomposer: hwc_setPowerMode: Setting mode 2 on display: 0
+07-03 13:37:59.636  1907  3355 V KeyguardServiceDelegate: **** SHOWN CALLED ****
+07-03 13:37:59.665  1907  1907 D bsthal  : activate, handle: 1598182229, enabled: 1, index 0
+07-03 13:37:59.665  1907  1907 E bsthal  : <BST> enable accel, orig state: 0
+07-03 13:37:59.665  1907  1907 I bsthal  : <BST> enable sensor <BOSCH BMC150 Acceleration Sensor>
+07-03 13:37:59.688  1907  1907 D bsthal  : setDelay, handle: 1598182229 delay: 200000000
+07-03 13:37:59.688  1907  1907 E bsthal  : <BST> set delay: 200000000ns
+07-03 13:37:59.688  1907  1907 I bsthal  : <BST> set delay of <BOSCH BMC150 Acceleration Sensor> to 200ms
+07-03 13:37:59.689   392 24842 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+07-03 13:37:59.689   392 24842 D audio_hw_fm: audio_extn_fm_set_parameters: Inside
+07-03 13:37:59.689   392 24842 V audio_hw_fm: audio_extn_fm_set_parameters: enter
+07-03 13:37:59.689   392 24842 V audio_hw_fm: audio_extn_fm_set_parameters: exit
+07-03 13:37:59.689   392 24842 E bt_a2dp_hw: adev_set_parameters: ERROR: set param called even when stream out is null
+07-03 13:37:59.709  1907  2313 E native  : do suspend false
+07-03 13:37:59.718  2389  2389 V QSTileView: setDual true
+07-03 13:37:59.718  2389  2389 V QSTileView: setDual true
+07-03 13:37:59.718  2389  2389 V QSTileView: setDual false
+07-03 13:37:59.718  2389  2389 V QSTileView: setDual false
+07-03 13:37:59.718  2389  2389 V QSTileView: setDual false
+07-03 13:37:59.718  2389  2389 V QSTileView: setDual false
+07-03 13:37:59.718  2389  2389 V QSTileView: setDual false
+07-03 13:37:59.718  2389  2389 V QSTileView: setDual false
+07-03 13:37:59.718  2389  2389 V QSTileView: setDual false
+07-03 13:37:59.718  2389  2389 V QSTileView: setDual false
+07-03 13:37:59.718  2389  2389 V QSTileView: setDual false
+07-03 13:37:59.718  2389  2389 V QSTileView: setDual false
+07-03 13:37:59.741  1907  2313 D WifiConfigStore: No blacklist allowed without epno enabled
+07-03 13:37:59.769  2389  2720 I NetworkController.MotorolaMobileSignalController(9): MotorolaMobilePhoneStateListener.onDataActivity: Entered: direction=0
+07-03 13:37:59.769  2389  2720 I NetworkController.MotorolaMobileSignalController(5): MotorolaMobilePhoneStateListener.onDataActivity: Entered: direction=0
+07-03 13:37:59.769  2389  2720 I NetworkController.MotorolaMobileSignalController(9): MotorolaMobilePhoneStateListener.onDataActivity: Entered: direction=0
+07-03 13:37:59.769  2389  2720 I NetworkController.MotorolaMobileSignalController(5): MotorolaMobilePhoneStateListener.onDataActivity: Entered: direction=0
+07-03 13:37:59.777  2389  2720 I NetworkController.MotorolaMobileSignalController(9): MotorolaMobilePhoneStateListener.onDataActivity: Entered: direction=0
+07-03 13:37:59.777  2389  2720 I NetworkController.MotorolaMobileSignalController(5): MotorolaMobilePhoneStateListener.onDataActivity: Entered: direction=0
+07-03 13:37:59.777  2389  2720 I NetworkController.MotorolaMobileSignalController(9): MotorolaMobilePhoneStateListener.onDataActivity: Entered: direction=0
+07-03 13:37:59.781  2389  2720 I NetworkController.MotorolaMobileSignalController(5): MotorolaMobilePhoneStateListener.onDataActivity: Entered: direction=0
+07-03 13:37:59.784   406   592 I ThermalEngine: Sensor:xo_therm_pu2:41000 mC
+07-03 13:37:59.791  3360  3360 D ScreenOnOffReceiver: Received intent: Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }.
+07-03 13:37:59.793  3360  3360 D ScreenOnOffReceiver: Received intent: Intent { act=android.intent.action.SCREEN_ON flg=0x50000010 }.
+07-03 13:37:59.797   406   591 I ThermalEngine: Sensor:batt_therm:36200 mC
+07-03 13:37:59.823  1907 31920 D NetlinkSocketObserver: NeighborEvent{elapsedMs=102253729, 192.168.0.1, [14825BFA71E8], RTM_NEWNEIGH, NUD_PROBE}
+07-03 13:37:59.828   359  1033 I qdhwcomposer: handle_blank_event: dpy:0 panel power state: 1
+07-03 13:37:59.829   359   359 I qdhwcomposer: enable_dcabc: Done setting UI mode
+07-03 13:37:59.829   359   359 D qdhwcomposer: hwc_setPowerMode: Done setting mode 2 on display 0
+07-03 13:37:59.829  1907  2356 D SurfaceControl: Excessive delay in setPowerMode(): 211ms
+07-03 13:37:59.829  1907  2134 V KeyguardServiceDelegate: onScreenTurnedOn()
+07-03 13:38:00.000  1907  2303 V AlarmManager: sending alarm {9aa8c2c type 3 *alarm*:android.intent.action.TIME_TICK}
+07-03 13:38:00.100  1907  1907 V AlarmManager: done {9aa8c2c, *alarm*:android.intent.action.TIME_TICK} [99ms]
+07-03 13:38:00.780  2389  2720 I NetworkController.MotorolaMobileSignalController(5): MotorolaMobilePhoneStateListener.onSignalStrengthsChanged: Entered: signalStrength=SignalStrength: 22 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=4
+07-03 13:38:00.876  2389  2389 D PhoneStatusBar: disable: < expand ICONS alerts SYSTEM_INFO back HOME RECENT clock SEARCH quick_settings >
+07-03 13:38:00.969  2389  2389 D PhoneStatusBar: disable: < expand ICONS alerts SYSTEM_INFO back HOME RECENT clock SEARCH quick_settings >
+07-03 13:38:01.231   359   359 I SFPerfTracer:      triggers: (rate: 734:19837) (compose: 0:18) (post: 0:11) (render: 55:1775) (82:349479 frames) (83:398948)
+07-03 13:38:01.231   359   359 D SFPerfTracer:        layers: (2:12) (FocusedStackFrame (0xb71ba600): 0:4057)* (DimLayer (0xb7280f80): 0:42)* (DimLayer (0xb7283cf8): 0:8)* (StatusBar (0xb7260098): 83:92167) (com.android.systemui.ImageWallpaper (0xb7278a30): 0:3205) (DimLayer (0xb7266870): 0:28)* (com.google.android.keep/com.google.android.keep.activities.BrowseActivity (0xb720a878): 4:677)* (InputMethod (0xb727f888): 1:218)* (NavigationBar (0xb71e6c20): 0:33)- (PopupWindow:3055ac4 (0xb72470d8): 0:122)- (ColorFade (0xb72872c0): 0:26)- 
+07-03 13:38:01.465  2389  2720 I NetworkController.MotorolaMobileSignalController(9): MotorolaMobilePhoneStateListener.onSignalStrengthsChanged: Entered: signalStrength=SignalStrength: 13 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=4
+07-03 13:38:02.713  2389  2720 D MotoNetwCtrlr: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+07-03 13:38:02.713  2389  2720 I MotoNetwCtrlr.MotoWifiSignalCtrlr: handleBroadcast: Entered: Intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } Action=android.net.wifi.RSSI_CHANGED
+07-03 13:38:03.245  1907  3005 E WifiService: Multicaster binderDied
+07-03 13:38:03.245  1907  2318 D WifiService: Client connection lost with reason: 4
+07-03 13:38:03.247  1907  1933 I libprocessgroup: Killing pid 14843 in uid 10128 as part of process group 14799
+07-03 13:38:03.255  1907  1933 I libprocessgroup: Killing pid 14843 in uid 10128 as part of process group 14799
+07-03 13:38:03.260  1907  1933 I libprocessgroup: Killing pid 14843 in uid 10128 as part of process group 14799
+07-03 13:38:03.265  1907  1933 I libprocessgroup: Killing pid 14843 in uid 10128 as part of process group 14799
+07-03 13:38:03.271  1907  1933 I libprocessgroup: Killing pid 14843 in uid 10128 as part of process group 14799
+07-03 13:38:03.276  1907  1933 I libprocessgroup: Killing pid 14843 in uid 10128 as part of process group 14799
+07-03 13:38:03.323  1907  1933 I ActivityManager: Process com.estrongs.android.pop (pid 14799) has died
+07-03 13:38:03.362  1907  3005 I ActivityManager: Process com.google.android.partnersetup (pid 14928) has died
+07-03 13:38:03.376  3023  3023 I MemoryTrimmer: Trimming objects from memory, since app is in the background.
+07-03 13:38:03.409 14894 14894 I MemoryTrimmer: Trimming objects from memory, since app is in the background.
+07-03 13:38:03.645   359  1046 I SFPerfTracer:      triggers: (rate: 0:96) (26294 sw vsyncs) (0 skipped) (222:560864 vsyncs) (224:649224)
+07-03 13:38:03.704  2389  2720 I NetworkController.MotorolaMobileSignalController(5): MotorolaMobilePhoneStateListener.onSignalStrengthsChanged: Entered: signalStrength=SignalStrength: 19 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=4
+07-03 13:38:04.594  2389  3151 D KeyguardViewMediator: setKeyguardEnabled(true)
+07-03 13:38:04.598  2389  2389 I Choreographer: Skipped 62 frames!  The application may be doing too much work on its main thread.
+07-03 13:38:04.598  3360  3360 D TrustAgent: [GoogleTrustAgentChimeraService] onConfigure("[]")
+07-03 13:38:04.698  5985  5985 D 3CDM.DevAdminReceiver: received android.app.action.ACTION_PASSWORD_FAILED
+07-03 13:38:04.703  2389  2720 D MotoNetwCtrlr: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+07-03 13:38:04.703  2389  2720 I MotoNetwCtrlr.MotoWifiSignalCtrlr: handleBroadcast: Entered: Intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } Action=android.net.wifi.RSSI_CHANGED
+07-03 13:38:05.454  3360  3360 I Coffee-InactivityTracker: updateIdelThreshold to 240
+07-03 13:38:05.454  5985  5985 D 3CDM.DevAdminReceiver: received android.app.action.ACTION_PASSWORD_FAILED
+07-03 13:38:05.455  2389 17164 D KeyguardViewMediator: setKeyguardEnabled(true)
+07-03 13:38:05.462  3360  3360 I Coffee-PlaceTrustlet: onDestroy(), stop()
+07-03 13:38:05.475  3360  3360 D TrustAgent: [TrustletManager] validateTrust("null"), mDeviceIdle: false, mRequireUserAuthentication: false
+07-03 13:38:05.476  3360  3360 I TrustAgent: [TrustletManager] Starting trustlet Bluetooth...
+07-03 13:38:05.488  3360  3360 I TrustAgent: [TrustletManager] Starting trustlet Place...
+07-03 13:38:05.489  3360  3360 I Coffee-PlaceTrustlet: No account is set for trusted places.
+07-03 13:38:05.490  3360  3360 I TrustAgent: [TrustletManager] Starting trustlet Face Unlock...
+07-03 13:38:05.491  3360  3360 I TrustAgent: [TrustletManager] Starting trustlet Voice Unlock...
+07-03 13:38:05.492  3360  3360 D TrustAgent: [TrustletManager] validateTrust("null"), mDeviceIdle: false, mRequireUserAuthentication: false
+07-03 13:38:05.492  3360  3360 D TrustAgent: [GoogleTrustAgentChimeraService] onUnlockAttempt(false)
+07-03 13:38:05.492  3360  3360 D TrustAgent: [GoogleTrustAgentChimeraService] onDestroy()
+07-03 13:38:05.494  3360  3360 I Coffee-PlaceTrustlet: onDestroy(), stop()
+07-03 13:38:05.496  3360  3360 D TrustAgent: [TrustletManager] validateTrust("null"), mDeviceIdle: false, mRequireUserAuthentication: false
+07-03 13:38:05.706  2389  2720 D MotoNetwCtrlr: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+07-03 13:38:05.706  2389  2720 I MotoNetwCtrlr.MotoWifiSignalCtrlr: handleBroadcast: Entered: Intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } Action=android.net.wifi.RSSI_CHANGED
+07-03 13:38:06.431  2389  2720 I NetworkController.MotorolaMobileSignalController(5): MotorolaMobilePhoneStateListener.onSignalStrengthsChanged: Entered: signalStrength=SignalStrength: 18 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=4
+07-03 13:38:07.077   395   395 I keystore: calling unlock when not locked, ignoring.
+07-03 13:38:07.089  2389 19003 D KeyguardViewMediator: setKeyguardEnabled(true)
+07-03 13:38:07.091  5985  5985 D 3CDM.DevAdminReceiver: received android.app.action.ACTION_PASSWORD_SUCCEEDED
+07-03 13:38:07.093  2389  2389 D KeyguardViewMediator: keyguardDone(true, true)
+07-03 13:38:07.093  2389  2389 D KeyguardViewMediator: handleKeyguardDone(true, true)
+07-03 13:38:07.093  2389  2389 D KeyguardViewMediator: in handleHide(), mShowing = true mOccluded = false  mHideAnimationRun = false
+07-03 13:38:07.093  2389  2389 D KeyguardSecurityView: startPreHideAnimation(com.android.systemui.keyguard.KeyguardViewMediator$5@fd500d2);  mCurrentSecuritySelection = Pattern
+07-03 13:38:07.105  3360  3360 D TrustAgent: [GoogleTrustAgentChimeraService] onCreate()
+07-03 13:38:07.120  3360  3360 I TrustAgent: [TrustletManager] Starting trustlet Bluetooth...
+07-03 13:38:07.125  3360  3360 I TrustAgent: [TrustletManager] Starting trustlet Place...
+07-03 13:38:07.126  3360  3360 I Coffee-PlaceTrustlet: No account is set for trusted places.
+07-03 13:38:07.127  3360  3360 I TrustAgent: [TrustletManager] Starting trustlet Face Unlock...
+07-03 13:38:07.129  3360  3360 I TrustAgent: [TrustletManager] Starting trustlet Voice Unlock...
+07-03 13:38:07.130  3360  3360 D TrustAgent: [TrustletManager] validateTrust("null"), mDeviceIdle: false, mRequireUserAuthentication: false
+07-03 13:38:07.135  3360  3360 D TrustAgent: [GoogleTrustAgentChimeraService] onConfigure("[]")
+07-03 13:38:07.136  3360  3360 I Coffee-InactivityTracker: updateIdelThreshold to 240
+07-03 13:38:07.136  3360  3360 I Coffee-PlaceTrustlet: onDestroy(), stop()
+07-03 13:38:07.138  3360  3360 D TrustAgent: [TrustletManager] validateTrust("null"), mDeviceIdle: false, mRequireUserAuthentication: false
+07-03 13:38:07.138  3360  3360 I TrustAgent: [TrustletManager] Starting trustlet Bluetooth...
+07-03 13:38:07.142  3360  3360 I TrustAgent: [TrustletManager] Starting trustlet Place...
+07-03 13:38:07.143  3360  3360 I Coffee-PlaceTrustlet: No account is set for trusted places.
+07-03 13:38:07.143  3360  3360 I TrustAgent: [TrustletManager] Starting trustlet Face Unlock...
+07-03 13:38:07.150  3360  3360 I TrustAgent: [TrustletManager] Starting trustlet Voice Unlock...
+07-03 13:38:07.152  3360  3360 D TrustAgent: [TrustletManager] validateTrust("null"), mDeviceIdle: false, mRequireUserAuthentication: false
+07-03 13:38:07.316  2389  2389 D KeyguardViewMediator: Call PhoneWindowManager's keyguardGoingAway, expect PhoneWindowManager to call startKeyguardExitAnimation
+07-03 13:38:07.344  2389  2389 D KeyguardViewMediator: handleStartKeyguardExitAnimation(48313385, 300)
+07-03 13:38:07.349   392  1038 D audio_hw_primary: out_set_parameters: enter: usecase(1: low-latency-playback) kvpairs: routing=2
+07-03 13:38:07.349   392  1038 D audio_hw_fm: audio_extn_fm_set_parameters: Inside
+07-03 13:38:07.349   392  1038 V audio_hw_fm: audio_extn_fm_set_parameters: enter
+07-03 13:38:07.349   392  1038 V audio_hw_fm: audio_extn_fm_set_parameters: exit
+07-03 13:38:07.351  2389  2389 D PhoneStatusBar: disable: < expand icons* alerts system_info* back HOME RECENT clock SEARCH quick_settings >
+07-03 13:38:07.352   359   359 I SFPerfTracer:      triggers: (rate: 734:19839) (compose: 0:18) (post: 0:11) (render: 55:1775) (68:349610 frames) (69:399092)
+07-03 13:38:07.352   359   359 D SFPerfTracer:        layers: (3:10) (FocusedStackFrame (0xb71ba600): 0:4057)* (DimLayer (0xb7280f80): 0:42)* (DimLayer (0xb7283cf8): 0:8)* (StatusBar (0xb7260098): 68:92301) (com.android.systemui.ImageWallpaper (0xb7278a30): 0:3205) (DimLayer (0xb7266870): 0:28)* (com.google.android.keep/com.google.android.keep.activities.BrowseActivity (0xb720a878): 3:689)* (InputMethod (0xb727f888): 0:218)* (NavigationBar (0xb71e6c20): 0:18) 
+07-03 13:38:07.355 10448 10448 W EditorFragment: notify load note
+07-03 13:38:07.362   392  1037 D audio_hw_primary: select_devices: out_snd_device(2: speaker) in_snd_device(0: none)
+07-03 13:38:07.362   392  1037 D msm8974_platform: platform_send_audio_calibration: sending audio calibration for snd_device(2) acdb_id(15)
+07-03 13:38:07.362   392  1037 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 15, path =  0
+07-03 13:38:07.363   392  1037 D ACDB-LOADER: ACDB -> send_adm_topology
+07-03 13:38:07.363   392  1037 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+07-03 13:38:07.363   392  1037 D ACDB-LOADER: ACDB -> send_audtable
+07-03 13:38:07.363   392  1037 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+07-03 13:38:07.363   392  1037 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+07-03 13:38:07.363   392  1037 D ACDB-LOADER: ACDB -> send_audvoltable
+07-03 13:38:07.363   392  1037 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE
+07-03 13:38:07.363   392  1037 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_VOL_CAL
+07-03 13:38:07.363   392  1037 D ACDB-LOADER: ACDB -> send_afe_cal
+07-03 13:38:07.363   392  1037 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+07-03 13:38:07.363   392  1037 D         : Failed to fetch the lookup information of the device 0000000F 
+07-03 13:38:07.363   392  1037 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+07-03 13:38:07.363   392  1037 D audio_hw_primary: enable_snd_device: snd_device(2: speaker)
+07-03 13:38:07.370   392  1037 D audio_hw_primary: enable_audio_route: apply and update mixer path: low-latency-playback speaker
+07-03 13:38:07.397  2389  2389 D PhoneStatusBar: disable: < expand icons alerts system_info back HOME RECENT clock SEARCH quick_settings >
+07-03 13:38:07.405  3360  3360 D ScreenOnOffReceiver: Received intent: Intent { act=android.intent.action.USER_PRESENT flg=0x24000010 }.
+07-03 13:38:07.406  3360  3360 D Coffee-OneTimeAuthTrustlet: user present
+07-03 13:38:07.407  3360  3360 D Coffee-OneTimeAuthTrustlet: screen off
+07-03 13:38:07.407  3360  3360 D Coffee-OneTimeAuthTrustlet: user present
+07-03 13:38:07.409  3360  3360 D Coffee-OneTimeAuthTrustlet: screen off
+07-03 13:38:07.409  3360  3360 D ScreenOnOffReceiver: Received intent: Intent { act=android.intent.action.USER_PRESENT flg=0x24000010 }.
+07-03 13:38:07.415  3360  3360 V ConnectivityManager: isActiveNetworkMetered() returns:false
+07-03 13:38:07.445   359  1046 I SFPerfTracer:      triggers: (rate: 0:96) (26294 sw vsyncs) (0 skipped) (116:561005 vsyncs) (118:649372)
+07-03 13:38:07.485  2389  2389 D PhoneStatusBar: disable: < expand icons alerts system_info back home* recent* clock search* quick_settings >
+07-03 13:38:07.493  2389  2389 V QSTileView: setDual true
+07-03 13:38:07.493  2389  2389 V QSTileView: setDual true
+07-03 13:38:07.493  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.493  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.493  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.493  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.493  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.494  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.494  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.494  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.494  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.494  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.524  1907  3035 W InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@619aa35 attribute=android.view.inputmethod.EditorInfo@4c7ceca, token = android.os.BinderProxy@fd99ef8
+07-03 13:38:07.540  1907  3355 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 13:38:07.543  1907  3367 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 13:38:07.545  1907  1933 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 13:38:07.545  1907  1932 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 13:38:07.549  1907  5738 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 13:38:07.550  1907  3005 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 13:38:07.603  3360  3360 D Coffee-OneTimeAuthTrustlet: user present
+07-03 13:38:07.603  3360  3360 D Coffee-OneTimeAuthTrustlet: screen off
+07-03 13:38:07.603  3360  3360 D Coffee-OneTimeAuthTrustlet: user present
+07-03 13:38:07.603  3360  3360 D Coffee-OneTimeAuthTrustlet: screen off
+07-03 13:38:07.612  3360  3360 D WearableService: callingUid 10003, callindPid: 3360
+07-03 13:38:07.626  2389  2429 I art     : Background sticky concurrent mark sweep GC freed 173274(8MB) AllocSpace objects, 0(0B) LOS objects, 28% free, 22MB/32MB, paused 4.375ms total 181.424ms
+07-03 13:38:07.626  3360  3360 V UserPresentBroadcastReceiver: Received Intent { act=android.intent.action.USER_PRESENT flg=0x24000010 cmp=com.google.android.gms/.trustagent.UserPresentBroadcastReceiver }.
+07-03 13:38:07.635 14894 14894 I MemoryTrimmer: Trimming objects from memory, since app is in the background.
+07-03 13:38:07.635 10448 15526 W KeepMicroApp: GoogleApiClient failed to connect: 16
+07-03 13:38:07.683  1907  2405 I ActivityManager: Start proc 15531:com.estrongs.android.pop/u0a128 for broadcast com.estrongs.android.pop/.app.StartServiceReceiver
+07-03 13:38:07.797  2389  2389 V QSTileView: setDual true
+07-03 13:38:07.797  2389  2389 V QSTileView: setDual true
+07-03 13:38:07.797  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.797  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.797  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.797  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.797  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.798  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.798  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.798  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.798  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.798  2389  2389 V QSTileView: setDual false
+07-03 13:38:07.823  2389  2869 E Surface : getSlotFromBufferLocked: unknown buffer: 0xb99bdf50
+07-03 13:38:07.888 15531 15531 I MultiDex: VM with version 2.1.0 has multidex support
+07-03 13:38:07.888 15531 15531 I MultiDex: install
+07-03 13:38:07.888 15531 15531 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+07-03 13:38:07.888 15531 15531 I MultiDex: install
+07-03 13:38:07.888 15531 15531 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+07-03 13:38:08.054  1907  3005 I AccountManagerService: getTypesVisibleToCaller: isPermitted? false
+07-03 13:38:08.077  1907  1922 I art     : Background partial concurrent mark sweep GC freed 29968(1747KB) AllocSpace objects, 12(824KB) LOS objects, 33% free, 29MB/44MB, paused 2.919ms total 169.843ms
+07-03 13:38:08.377 15531 15553 E FlurryAgent: GOOGLE PLAY SERVICES EXCEPTION: com.google.android.gms.common.GooglePlayServicesUtil
+07-03 13:38:08.377 15531 15553 E FlurryAgent: There is a problem with the Google Play Services library, which is required for Android Advertising ID support. The Google Play Services library should be integrated in any app shipping in the Play Store that uses analytics or advertising.
+07-03 13:38:08.510  1907  2318 D WifiService: New client listening to asynchronous messages
+07-03 13:38:08.585 15531 15565 W ResourceType: No package identifier when getting value for resource number 0x00000000
+07-03 13:38:08.908 13414 13414 I SoftKeyboard: onPress: -5
+07-03 13:38:08.909 13414 13414 I SoftKeyboard: Text Before Cursor:  
+07-03 13:38:08.909 13414 13414 I SoftKeyboard: SWIPING?: true
+07-03 13:38:08.912 13414 13414 I LatinKeyboardView: MOVING: 'left: -4.9630737
+07-03 13:38:08.924 13414 13414 I SoftKeyboard: onKey: -5
+07-03 13:38:08.924 13414 13414 I SoftKeyboard: LatinKeyboardView.getDirection(): 0
+07-03 13:38:08.924 13414 13414 I SoftKeyboard: else length < 0
+07-03 13:38:08.924 13414 13414 I SoftKeyboard: KeyDownUp: keycode:67
+07-03 13:38:08.930 13414 13414 I SoftKeyboard: onRelease: -5
+07-03 13:38:08.934   359   359 I SFPerfTracer:      triggers: (rate: 734:19842) (compose: 0:18) (post: 0:11) (render: 55:1777) (49:349673 frames) (50:399162)
+07-03 13:38:08.934   359   359 D SFPerfTracer:        layers: (4:10) (FocusedStackFrame (0xb71ba600): 0:4059)* (DimLayer (0xb7280f80): 0:42)* (DimLayer (0xb7283cf8): 0:8)* (StatusBar (0xb7260098): 4:92322) (com.android.systemui.ImageWallpaper (0xb7278a30): 1:3216)* (DimLayer (0xb7266870): 0:30)* (com.google.android.keep/com.google.android.keep.activities.BrowseActivity (0xb720a878): 31:737) (InputMethod (0xb727f888): 1:236) (NavigationBar (0xb71e6c20): 17:37) 
+07-03 13:38:09.147  2389  2720 I NetworkController.MotorolaMobileSignalController(9): MotorolaMobilePhoneStateListener.onSignalStrengthsChanged: Entered: signalStrength=SignalStrength: 11 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=3
+07-03 13:38:09.789   406   592 I ThermalEngine: Sensor:xo_therm_pu2:42000 mC
+07-03 13:38:09.801   406   591 I ThermalEngine: Sensor:batt_therm:36200 mC

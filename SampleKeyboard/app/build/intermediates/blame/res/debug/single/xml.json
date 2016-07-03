@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/res/merged/debug/xml/symbols_shift.xml",
+        "source": "/home/priyanshi/Downloads/SampleKeyboard/app/src/main/res/xml/symbols_shift.xml"
+    },
+    {
+        "merged": "/home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/res/merged/debug/xml/ime_preferences.xml",
+        "source": "/home/priyanshi/Downloads/SampleKeyboard/app/src/main/res/xml/ime_preferences.xml"
+    },
+    {
+        "merged": "/home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/res/merged/debug/xml/method.xml",
+        "source": "/home/priyanshi/Downloads/SampleKeyboard/app/src/main/res/xml/method.xml"
+    },
+    {
+        "merged": "/home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/res/merged/debug/xml/symbols.xml",
+        "source": "/home/priyanshi/Downloads/SampleKeyboard/app/src/main/res/xml/symbols.xml"
+    },
+    {
+        "merged": "/home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/res/merged/debug/xml/qwerty.xml",
+        "source": "/home/priyanshi/Downloads/SampleKeyboard/app/src/main/res/xml/qwerty.xml"
+    }
+]

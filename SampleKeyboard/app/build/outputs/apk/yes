@@ -1,0 +1,192 @@
+--------- beginning of main
+07-03 14:50:06.258  3359  3359 I MultiDex: VM with version 2.1.0 has multidex support
+07-03 14:50:06.258  3359  3359 I MultiDex: install
+07-03 14:50:06.258  3359  3359 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+07-03 14:50:06.558  1907  6063 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 14:50:06.652  3359  3359 I GAv4    : Google Analytics 8.2.98 is starting up. To enable debug logging on a device run:
+07-03 14:50:06.652  3359  3359 I GAv4    :   adb shell setprop log.tag.GAv4 DEBUG
+07-03 14:50:06.652  3359  3359 I GAv4    :   adb logcat -s GAv4
+07-03 14:50:06.672  3359  3359 W GAv4    : AnalyticsReceiver is not registered or is disabled. Register the receiver for reliable dispatching on non-Google Play devices. See http://goo.gl/8Rd3yj for instructions.
+07-03 14:50:06.703  3359  3395 W GAv4    : AnalyticsService not registered in the app manifest. Hits might not be delivered reliably. See http://goo.gl/8Rd3yj for instructions.
+07-03 14:50:06.853  3359  3359 V ConnectivityManager: isActiveNetworkMetered() returns:false
+--------- beginning of system
+07-03 14:50:06.973   359  1046 I SFPerfTracer:      triggers: (rate: 0:96) (28080 sw vsyncs) (0 skipped) (146:576144 vsyncs) (148:668227)
+07-03 14:50:06.980  1907  2304 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL (has extras)} from uid 1000 on display 0
+07-03 14:50:06.981  1907  2304 I ActivityManager: moveHomeStack, setupComplete:true
+07-03 14:50:07.101   633   676 E Surface : getSlotFromBufferLocked: unknown buffer: 0xb90cd430
+07-03 14:50:07.202  3359  3359 I NSApplication: Starting up...
+07-03 14:50:07.251  3359  3359 V ConnectivityManager: isActiveNetworkMetered() returns:false
+07-03 14:50:07.252  3359  3420 E linker  : readlink('/proc/self/fd/22') failed: Permission denied [fd=22]
+07-03 14:50:07.252  3359  3420 E linker  : warning: unable to get realpath for the library "/data/data/com.google.android.apps.magazines/app_outdex-pdflib.dex.jar/pdflib.dex.dex". Will use given name.
+07-03 14:50:07.518  3023  3023 E NowRemoteClient: skipping logEndstates, service is null
+07-03 14:50:07.535  2612  2612 V Herrevad: NQAS connected
+07-03 14:50:07.558  1907  5711 I ActivityManager: Killing 3101:com.lenovo.anyshare.gps/u0a146 (adj 15): empty #7
+07-03 14:50:07.573  2612 10467 W LocalPredictor: On wifi, but couldn't get security type
+07-03 14:50:07.602  2389  2720 I NetworkController.MotorolaMobileSignalController(9): MotorolaMobilePhoneStateListener.onSignalStrengthsChanged: Entered: signalStrength=SignalStrength: 18 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=4
+07-03 14:50:07.619  3023  3023 I GEL     : handleIntent(Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10600000 cmp=com.google.android.googlequicksearchbox/com.google.android.launcher.GEL (has extras) })
+07-03 14:50:07.640  3023  3023 I Choreographer: Skipped 36 frames!  The application may be doing too much work on its main thread.
+07-03 14:50:07.655  3023  3245 I Adreno-EGL: <qeglDrvAPI_eglInitialize:379>: QUALCOMM Build: 10/09/15, 6cbbf7d, I3193f6e94a
+07-03 14:50:07.665  3023  3245 I OpenGLRenderer: Initialized EGL, version 1.4
+07-03 14:50:07.699  1907  2405 I ActivityManager: Start proc 3439:com.google.android.apps.cloudprint/u0a64 for broadcast com.google.android.apps.cloudprint/.printdialog.receivers.UpgradeBroadcastReceiver
+07-03 14:50:07.927   357   357 E lowmemorykiller: Error writing /proc/3156/oom_score_adj; errno=22
+07-03 14:50:07.939  2389  2720 D MotoNetwCtrlr: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+07-03 14:50:07.939  2389  2720 I MotoNetwCtrlr.MotoWifiSignalCtrlr: handleBroadcast: Entered: Intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } Action=android.net.wifi.RSSI_CHANGED
+07-03 14:50:07.951  2612 10467 V ConnectivityManager: isActiveNetworkMetered() returns:false
+07-03 14:50:08.094  2389  2389 D TaskResourceLoader: getTaskDescriptionIcon begin: iconBitmap = null ,iconFilename = null
+07-03 14:50:08.094  2389  2389 D TaskResourceLoader: getTaskDescriptionIcon end
+07-03 14:50:08.096   357   357 E lowmemorykiller: Error writing /proc/3156/oom_score_adj; errno=22
+07-03 14:50:08.098   357   357 E lowmemorykiller: Error writing /proc/3156/oom_score_adj; errno=22
+07-03 14:50:08.099  1907  2123 I LaunchCheckinHandler: Displayed com.google.android.googlequicksearchbox/com.google.android.launcher.GEL,wp,wa,1119
+07-03 14:50:08.128  3439  3439 W System  : ClassLoader referenced unknown path: /data/app/com.google.android.apps.cloudprint-2/lib/arm
+07-03 14:50:08.139  2389  2389 D SystemServicesProxy: getThumbnail begin: taskId = 5234
+07-03 14:50:08.139  2389  2389 D SystemServicesProxy: getThumbnail end: taskId = 5234
+07-03 14:50:08.341  3023  3245 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+07-03 14:50:08.412  1907  1933 I ActivityManager: Start proc 3466:com.google.android.partnersetup/u0a17 for content provider com.google.android.partnersetup/.RlzAppProvider
+07-03 14:50:08.472  1907  1907 V AlarmManager: done {c516aba, *walarm*:com.android.internal.policy.impl.PhoneWindowManager.DELAYED_KEYGUARD} [15843ms]
+07-03 14:50:08.481   357   357 E lowmemorykiller: Error writing /proc/3156/oom_score_adj; errno=22
+07-03 14:50:08.499  3466  3466 W System  : ClassLoader referenced unknown path: /system/priv-app/GooglePartnerSetup/lib/arm
+07-03 14:50:08.699  1907  5711 E WifiService: Multicaster binderDied
+07-03 14:50:08.699  1907  2318 D WifiService: Client connection lost with reason: 4
+07-03 14:50:08.700  1907  2405 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ id=229, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ], android.os.BinderProxy@6d0a5db)
+07-03 14:50:08.700  1907  2319 D ConnectivityService: releasing NetworkRequest NetworkRequest [ id=229, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-03 14:50:08.707  1907  2319 E ConnectivityService: RemoteException caught trying to send a callback msg for NetworkRequest [ id=229, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+07-03 14:50:08.726  1907  3355 I ActivityManager: Start proc 3484:com.android.providers.calllogbackup/u0a15 for broadcast com.android.providers.calllogbackup/.CallLogChangeReceiver
+07-03 14:50:08.752  1907  1922 I art     : Background partial concurrent mark sweep GC freed 21417(1626KB) AllocSpace objects, 5(100KB) LOS objects, 33% free, 30MB/45MB, paused 2.968ms total 209.256ms
+07-03 14:50:08.762  3070  3082 W LocationOracle: getBestLocation(): no location is available
+07-03 14:50:08.824   359  1046 I SFPerfTracer:      triggers: (rate: 0:96) (28080 sw vsyncs) (0 skipped) (37:576242 vsyncs) (39:668330)
+07-03 14:50:08.844  3070  3081 I art     : Background sticky concurrent mark sweep GC freed 12638(1011KB) AllocSpace objects, 8(356KB) LOS objects, 13% free, 10MB/12MB, paused 8.435ms total 56.943ms
+07-03 14:50:08.854  1907  2767 I ActivityManager: Process com.estrongs.android.pop (pid 3156) has died
+07-03 14:50:08.879  3484  3484 W System  : ClassLoader referenced unknown path: /system/priv-app/CallLogBackup/lib/arm
+07-03 14:50:09.102  1907  2917 I ActivityManager: Killing 3132:com.quickoffice.android/u0a72 (adj 15): empty #7
+07-03 14:50:09.281  3070  3070 I MicroDetectionWorker: Micro detection mode: [mDetectionMode: [1]].
+07-03 14:50:09.385  3070  3070 I MicroDetector: Keeping mic open: false
+07-03 14:50:09.396  3070  3510 I DeviceStateChecker: DeviceStateChecker cancelled
+07-03 14:50:09.400  3070  3508 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+07-03 14:50:09.400  3070  3508 E linker  : warning: unable to get realpath for the library "/data/app/com.google.android.googlequicksearchbox-1/lib/arm/libnativecrashreporter.so". Will use given name.
+07-03 14:50:09.419  3070  3508 I GsaNativeCrashHandler: Loaded shared library: nativecrashreporter
+07-03 14:50:09.420  3070  3508 E linker  : readlink('/proc/self/fd/21') failed: Permission denied [fd=21]
+07-03 14:50:09.420  3070  3508 E linker  : warning: unable to get realpath for the library "/data/app/com.google.android.googlequicksearchbox-1/lib/arm/libgoogle_speech_micro_jni.so". Will use given name.
+07-03 14:50:09.477  3070  3508 I MicroRecognitionRunner: Stopping hotword detection.
+07-03 14:50:09.477  3070  3511 I MicroRecognitionRunner: Starting detection.
+07-03 14:50:09.689  3360  3598 W GeofencerStateMachine: Ignoring removeGeofence because network location is disabled.
+07-03 14:50:09.698  1907  3367 I ActivityManager: Start proc 3529:com.android.providers.calendar/u0a31 for content provider com.android.providers.calendar/.CalendarProvider2
+07-03 14:50:09.748  2612  3527 W IcingInternalCorpora: getNumBytesRead when not calculated.
+07-03 14:50:09.787  3360  3360 D WearableService: callingUid 10003, callindPid: 3360
+07-03 14:50:09.801  3070  3070 E CardSyncManagerImpl: onConnectionFailed: ConnectionResult{statusCode=API_UNAVAILABLE, resolution=null, message=null}
+07-03 14:50:09.802  3070  3525 E CardSyncManagerImpl: Failed to connect to GoogleApiClient: null
+07-03 14:50:09.809  3529  3529 W System  : ClassLoader referenced unknown path: /system/priv-app/CalendarProvider/lib/arm
+07-03 14:50:09.841  1907  5711 I ActivityManager: Process com.motorola.context (pid 3263) has died
+07-03 14:50:09.894  1907  3005 I ActivityManager: Process com.google.android.apps.magazines (pid 3359) has died
+07-03 14:50:09.913  3529  3529 I CalendarProvider2: Created com.android.providers.calendar.CalendarAlarmManager@701cab8(com.android.providers.calendar.CalendarProvider2@9d79091)
+07-03 14:50:09.917  1907  2617 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 14:50:09.963  2389  2720 I NetworkController.MotorolaMobileSignalController(9): MotorolaMobilePhoneStateListener.onSignalStrengthsChanged: Entered: signalStrength=SignalStrength: 18 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=4
+07-03 14:50:09.993   359   359 I SFPerfTracer:      triggers: (rate: 738:20229) (compose: 0:19) (post: 0:12) (render: 58:1843) (20:358100 frames) (21:409554)
+07-03 14:50:09.993   359   359 D SFPerfTracer:        layers: (4:10) (FocusedStackFrame (0xb71ba600): 0:4170)* (DimLayer (0xb7280f80): 0:42)* (DimLayer (0xb7283cf8): 0:8)* (StatusBar (0xb7260098): 0:96151) (com.android.systemui.ImageWallpaper (0xb7278a30): 0:3362) (DimLayer (0xb7279cf8): 0:38)* (DimLayer (0xb7266870): 0:59)* (com.android.dialer/com.android.dialer.DialtactsActivity (0xb71e6c20): 0:143)- (NavigationBar (0xb72872c0): 0:60) (com.google.android.googlequicksearchbox/com.google.android.launcher.GEL (0xb7209e90): 21:47) 
+07-03 14:50:10.002  2612  2629 I art     : Background partial concurrent mark sweep GC freed 56042(3MB) AllocSpace objects, 11(220KB) LOS objects, 40% free, 17MB/29MB, paused 2.393ms total 192.350ms
+07-03 14:50:10.214  1907  3035 I ActivityManager: Process com.google.android.apps.cloudprint (pid 3439) has died
+07-03 14:50:10.285  1907  3006 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.google.android.keep/.activities.BrowseActivity (has extras)} from uid 10028 on display 0
+07-03 14:50:10.313  3070  3460 W SearchService: Abort, client detached.
+07-03 14:50:10.356  3070  3124 I GrammarCompilationSvcCt: Grammar compilation alarm set for interval 604800000
+07-03 14:50:10.578 10448 10448 W EditorFragment: notify load note
+07-03 14:50:10.651 10448 10512 I OpenGLRenderer: Initialized EGL, version 1.4
+07-03 14:50:10.943  3529  3529 I CalendarProvider2: Sending notification intent: Intent { act=android.intent.action.PROVIDER_CHANGED dat=content://com.android.calendar }
+07-03 14:50:10.952  1907  2123 I LaunchCheckinHandler: Displayed com.google.android.keep/.activities.BrowseActivity,wp,wa,667
+07-03 14:50:10.961  3529  3529 W ContentResolver: Failed to get type for: content://com.android.calendar (Unknown URL content://com.android.calendar)
+07-03 14:50:10.982  1907  1965 I ActivityManager: Start proc 3562:com.motorola.context/u0a47 for broadcast com.motorola.context/.publisher.calendar.CalendarReceiver
+07-03 14:50:11.011  3023  3245 E Surface : getSlotFromBufferLocked: unknown buffer: 0xb824f100
+07-03 14:50:11.085  3562  3562 W System  : ClassLoader referenced unknown path: /system/priv-app/ContextEngineClient/lib/arm
+07-03 14:50:11.212  3178  3579 D OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+07-03 14:50:11.222  2445  2445 D ConnectivityManager: getMobileDataEnabled()+ subId=9
+07-03 14:50:11.228  3017 17668 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=9 phoneId=0
+07-03 14:50:11.254  1907  5738 I ActivityManager: Start proc 3581:com.google.android.calendar/u0a49 for broadcast com.google.android.calendar/com.android.calendar.alerts.AlertReceiver
+07-03 14:50:11.263  3017 17668 D PhoneInterfaceManager: [PhoneIntfMgr] getDataEnabled: subId=9 retVal=true
+07-03 14:50:11.264  2445  2445 D ConnectivityManager: getMobileDataEnabled()- subId=9 retVal=true
+07-03 14:50:11.290   359  1046 I SFPerfTracer:      triggers: (rate: 0:96) (28080 sw vsyncs) (0 skipped) (55:576381 vsyncs) (57:668475)
+07-03 14:50:11.304  1907  2421 I ActivityManager: Process com.google.android.partnersetup (pid 3466) has died
+07-03 14:50:11.376  1907  1933 I ActivityManager: Process com.android.providers.calllogbackup (pid 3484) has died
+07-03 14:50:11.392 10448 10448 I Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+07-03 14:50:11.397  1907  1961 W ProcessCpuTracker: Skipping unknown process pid 3484
+07-03 14:50:11.401  1907  5711 I AccountManagerService: getTypesVisibleToCaller: isPermitted? false
+07-03 14:50:11.533  3178  3579 I Adreno-EGL: <qeglDrvAPI_eglInitialize:379>: QUALCOMM Build: 10/09/15, 6cbbf7d, I3193f6e94a
+07-03 14:50:11.544  3178  3579 I OpenGLRenderer: Initialized EGL, version 1.4
+07-03 14:50:11.567  1907  1932 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 14:50:11.567  1907  2617 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 14:50:11.567  1907  2917 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 14:50:11.568  1907  5738 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 14:50:11.583  1907  1933 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 14:50:11.584  1907  5711 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 14:50:11.697  3581  3581 W System  : ClassLoader referenced unknown path: /data/app/com.google.android.calendar-2/lib/arm
+07-03 14:50:11.805  3070  3070 I MemoryTrimmer: Trimming objects from memory, since app is in the background.
+07-03 14:50:11.853  3070  3115 W CardSyncManagerImpl: Too many retries to wait for connected Wear devices.
+07-03 14:50:11.871  3023  3023 I MemoryTrimmer: Trimming objects from memory, since app is in the background.
+07-03 14:50:12.300  1907  2405 I AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+07-03 14:50:12.608  3581  3581 I AnalyticsLogBase: PlayLogger.onLoggerConnected
+07-03 14:50:13.060   359   359 I SFPerfTracer:      triggers: (rate: 738:20233) (compose: 0:19) (post: 0:12) (render: 58:1843) (26:358211 frames) (27:409676)
+07-03 14:50:13.060   359   359 D SFPerfTracer:        layers: (4:11) (FocusedStackFrame (0xb71ba600): 0:4174)* (DimLayer (0xb7280f80): 0:42)* (DimLayer (0xb7283cf8): 0:8)* (StatusBar (0xb7260098): 0:96154) (com.android.systemui.ImageWallpaper (0xb7278a30): 0:3363)* (DimLayer (0xb7279cf8): 0:38)* (DimLayer (0xb7266870): 0:59)* (NavigationBar (0xb72872c0): 0:61) (com.google.android.googlequicksearchbox/com.google.android.launcher.GEL (0xb7209e90): 0:87)- (com.google.android.keep/com.google.android.keep.activities.BrowseActivity (0xb727f888): 18:87) (InputMethod (0xb71e6c20): 13:19) 
+07-03 14:50:13.444  1907  3035 I ActivityManager: Process com.google.android.apps.photos (pid 3299) has died
+07-03 14:50:14.487  2389  2720 I NetworkController.MotorolaMobileSignalController(9): MotorolaMobilePhoneStateListener.onSignalStrengthsChanged: Entered: signalStrength=SignalStrength: 16 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 2147483647 gsm|lte level=4
+07-03 14:50:14.587   406   592 I ThermalEngine: Sensor:xo_therm_pu2:43000 mC
+07-03 14:50:14.596   406   591 I ThermalEngine: Sensor:batt_therm:35500 mC
+07-03 14:50:15.947  2389  2720 D MotoNetwCtrlr: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+07-03 14:50:15.947  2389  2720 I MotoNetwCtrlr.MotoWifiSignalCtrlr: handleBroadcast: Entered: Intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } Action=android.net.wifi.RSSI_CHANGED
+07-03 14:50:16.907  3178  3178 I SoftKeyboard: onPress: -5
+07-03 14:50:16.924  3178  3178 I LatinKeyboardView: MOVING: 'left: -22.039307
+07-03 14:50:16.924  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:16.972  3178  3178 I LatinKeyboardView: MOVING: 'left: -18.696472
+07-03 14:50:16.972  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.001  3178  3178 I LatinKeyboardView: MOVING: 'left: -26.019592
+07-03 14:50:17.001  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.008  3178  3178 I LatinKeyboardView: MOVING: 'left: -22.015442
+07-03 14:50:17.008  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.073  3178  3178 I LatinKeyboardView: MOVING: 'left: -75.32721
+07-03 14:50:17.073  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.092  3178  3178 I LatinKeyboardView: MOVING: 'left: -40.64856
+07-03 14:50:17.092  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.108  3178  3178 I LatinKeyboardView: MOVING: 'left: -18.609161
+07-03 14:50:17.108  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.125  3178  3178 I LatinKeyboardView: MOVING: 'left: -19.078094
+07-03 14:50:17.125  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.141  3178  3178 I LatinKeyboardView: MOVING: 'left: -18.982971
+07-03 14:50:17.141  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.158  3178  3178 I LatinKeyboardView: MOVING: 'left: -20.23471
+07-03 14:50:17.158  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.164  1907 31920 D NetlinkSocketObserver: NeighborEvent{elapsedMs=106591497, 192.168.0.1, [14825BFA71E8], RTM_NEWNEIGH, NUD_STALE}
+07-03 14:50:17.174  3178  3178 I LatinKeyboardView: MOVING: 'left: -20.243408
+07-03 14:50:17.174  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.192  3178  3178 I LatinKeyboardView: MOVING: 'left: -15.605072
+07-03 14:50:17.192  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.208  3178  3178 I LatinKeyboardView: MOVING: 'left: -22.252533
+07-03 14:50:17.208  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.225  3178  3178 I LatinKeyboardView: MOVING: 'left: -16.038727
+07-03 14:50:17.225  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.241  3178  3178 I LatinKeyboardView: MOVING: 'left: -16.942749
+07-03 14:50:17.241  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.258  3178  3178 I LatinKeyboardView: MOVING: 'left: -18.204712
+07-03 14:50:17.258  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.275  3178  3178 I LatinKeyboardView: MOVING: 'left: -15.496002
+07-03 14:50:17.275  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.290  3581  3608 I GAV2    : Thread[GAThread,5,main]: No campaign data found.
+07-03 14:50:17.292  3178  3178 I LatinKeyboardView: MOVING: 'left: -17.296997
+07-03 14:50:17.292  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.308  3178  3178 I LatinKeyboardView: MOVING: 'left: -13.0186615
+07-03 14:50:17.308  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.325  3178  3178 I LatinKeyboardView: MOVING: 'left: -10.249619
+07-03 14:50:17.325  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.342  3178  3178 I LatinKeyboardView: MOVING: 'left: -11.703781
+07-03 14:50:17.342  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.359  3178  3178 I LatinKeyboardView: MOVING: 'left: -12.390945
+07-03 14:50:17.359  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.375  3178  3178 I LatinKeyboardView: MOVING: 'left: -21.382065
+07-03 14:50:17.375  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.392  3178  3178 I LatinKeyboardView: MOVING: 'left: -27.220337
+07-03 14:50:17.392  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.410  3178  3178 I LatinKeyboardView: MOVING: 'left: -22.17749
+07-03 14:50:17.410  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.451  3178  3178 I LatinKeyboardView: MOVING: 'left: -22.92022
+07-03 14:50:17.451  3178  3178 I LatinKeyboardView: CurrentKey: -5
+07-03 14:50:17.455  3178  3178 I SoftKeyboard: onKey: -2
+07-03 14:50:17.455  3178  3178 I SoftKeyboard: LatinKeyboardView.getDirection(): 0
+07-03 14:50:17.456  3178  3178 I SoftKeyboard: onRelease: -2
+07-03 14:50:18.959  2389  2720 D MotoNetwCtrlr: onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) }
+07-03 14:50:18.959  2389  2720 I MotoNetwCtrlr.MotoWifiSignalCtrlr: handleBroadcast: Entered: Intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras) } Action=android.net.wifi.RSSI_CHANGED
+07-03 14:50:18.974   359  1046 I SFPerfTracer:      triggers: (rate: 0:96) (28080 sw vsyncs) (0 skipped) (457:576838 vsyncs) (459:668934)

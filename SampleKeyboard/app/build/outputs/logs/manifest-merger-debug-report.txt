@@ -1,0 +1,73 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml
+		INJECTED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml
+		INJECTED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml
+		INJECTED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:5:5-23:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:5:18-50
+service#com.samplekeyboard.SoftKeyboard
+ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:6:9-15:19
+	android:permission
+		ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:8:13-70
+	android:name
+		ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:7:13-41
+intent-filter#android.view.InputMethod
+ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:9:13-11:29
+action#android.view.InputMethod
+ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:10:17-67
+	android:name
+		ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:10:25-64
+meta-data#android.view.im
+ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:12:13-14:50
+	android:resource
+		ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:14:17-47
+	android:name
+		ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:13:17-47
+activity#com.samplekeyboard.ImePreferences
+ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:label
+		ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:18:13-50
+	android:name
+		ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:17:13-43
+intent-filter#android.intent.action.MAIN
+ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:19:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml:20:25-66
+uses-sdk
+INJECTED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.4.0] /home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /home/priyanshi/Downloads/SampleKeyboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml
+		INJECTED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml
+		INJECTED from /home/priyanshi/Downloads/SampleKeyboard/app/src/main/AndroidManifest.xml
