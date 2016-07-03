@@ -32,13 +32,6 @@ import android.view.inputmethod.InputMethodSubtype;
 public class LatinKeyboardView extends KeyboardView {
     private static final String DEBUG_TAG = "Velocity";
     private static final String TAG = "LatinKeyboardView";
-    private VelocityTracker mVelocityTracker = null;
-    private static int charCount = -1;
-    float mPreviousX;
-    float mPreviousY;
-    private static boolean mIsDown = false;
-    private static boolean mIsRight = false;
-    private static boolean mIsLeft = false;
     static final int KEYCODE_OPTIONS = -100;
     private int currentKey;
     SoftKeyboard mServiceKeyboard;
@@ -71,7 +64,7 @@ public class LatinKeyboardView extends KeyboardView {
         return super.onTouchEvent(event);
     }
 
-    public static int getDirection(){
+  /*  public static int getDirection(){
         if(mIsDown && mIsLeft){
             return -1;
         }
@@ -79,7 +72,7 @@ public class LatinKeyboardView extends KeyboardView {
             return 1;
         }
         return 0;
-    }
+    }*/
     /*  @Override
     public boolean onTouchEvent(MotionEvent event){
         int index = event.getActionIndex();
@@ -142,7 +135,7 @@ public class LatinKeyboardView extends KeyboardView {
         invalidateAllKeys();
     }
 
-    public void setCharCount(int charCount) {
+  /*  public void setCharCount(int charCount) {
         this.charCount = charCount;
-    }
+    }*/
 }

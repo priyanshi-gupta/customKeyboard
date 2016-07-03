@@ -69,8 +69,8 @@ public class SoftKeyboard extends InputMethodService
     private CompletionInfo[] mCompletions;
 
     private StringBuilder mComposing = new StringBuilder();
-    private static boolean swipingLeft = false;
-    private static int charCount = 0;
+    /*private static boolean swipingLeft = false;
+    private static int charCount = 0;*/
     private boolean mPredictionOn;
     private boolean mCompletionOn;
     private int mLastDisplayWidth;
@@ -83,7 +83,8 @@ public class SoftKeyboard extends InputMethodService
     private LatinKeyboard mQwertyKeyboard;
 //    Context context = this.getApplicationContext();
     private LatinKeyboard mCurKeyboard;
-
+    static final int KEYCODE_SPACE = 32;
+    static final int KEYCODE_DELETE = -5;
     public static int getCurrentKeyCode() {
         return currentKeyCode;
     }
@@ -538,7 +539,7 @@ public class SoftKeyboard extends InputMethodService
 
     public void onKey(int primaryCode, int[] keyCodes) {
         Log.i(TAG, "onKey: "+ primaryCode);
-        Log.i(TAG, "LatinKeyboardView.getDirection(): "+ LatinKeyboardView.getDirection());
+//        Log.i(TAG, "LatinKeyboardView.getDirection(): "+ LatinKeyboardView.getDirection());
 
 //        Log.i(TAG, "mInputView.getX();: "+ mInputView);
 //        if(swipingLeft){
@@ -762,9 +763,6 @@ public class SoftKeyboard extends InputMethodService
     }
 
     public void swipeLeft() {
-
-
-        swipingLeft = true;
         Log.i(TAG, "swipeLeft");
         handleDeleteOrSpace();
         Log.i(TAG, "ic.deleteSurroundingText(str.length(), 0)");
@@ -808,16 +806,16 @@ float mPreviousX;
                         if (dx < 0) {
                             Log.i(TAG, "MOVING: " + "'left: " + dx);
                             Log.i(TAG, "CurrentKey: " + currentKey);
-                            if (currentKey == 32) {
+                            if (currentKey == KEYCODE_SPACE) {
                                 handleCursor(1);
                             }
-                            if(currentKey == -5){
+                            if(currentKey == KEYCODE_DELETE){
                                 handleDelete();
                             }
                         } else if (dx > 0) {
                             Log.i(TAG, "MOVING: " + "'right" + dx);
                             Log.i(TAG, "CurrentKey: " + currentKey);
-                            if (currentKey == 32) {
+                            if (currentKey == KEYCODE_SPACE) {
                                 handleCursor(-1);
                             }
                         }
@@ -850,12 +848,12 @@ float mPreviousX;
                 String str = ic.getTextBeforeCursor(1000, 0).toString();
                 Log.i(TAG, "Text Before Cursor: " + str);
                     ic.setSelection(0, str.length());
-                    ic.deleteSurroundingText(0, str.length());
+                    ic.deleteSurroundingText( str.length(), 0);
 
             }
             public void onRelease(int primaryCode) {
                 Log.i(TAG, "onRelease: " + primaryCode);
-                setCurrentKeyCode(-301);
+//                setCurrentKeyCode(-301);
         /*if(primaryCode == -5){
 
         }*/}
