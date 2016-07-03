@@ -33,6 +33,8 @@ import android.view.View;
 import android.view.Window;
 import android.view.inputmethod.CompletionInfo;
 import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.ExtractedText;
+import android.view.inputmethod.ExtractedTextRequest;
 import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputMethodManager;
 import android.view.inputmethod.InputMethodSubtype;
@@ -764,7 +766,12 @@ public class SoftKeyboard extends InputMethodService
 
     public void swipeLeft() {
         Log.i(TAG, "swipeLeft");
-        handleDeleteOrSpace();
+        if(currentKeyCode == KEYCODE_DELETE){
+            handleDelete();
+        }
+        if(currentKeyCode == KEYCODE_SPACE){
+            handleDeleteOrSpace();
+        }
         Log.i(TAG, "ic.deleteSurroundingText(str.length(), 0)");
         //handleBackspace();
     }
@@ -808,15 +815,19 @@ float mPreviousX;
                             Log.i(TAG, "CurrentKey: " + currentKey);
                             if (currentKey == KEYCODE_SPACE) {
                                 handleCursor(1);
+
                             }
-                            if(currentKey == KEYCODE_DELETE){
+                            /*if(currentKey == KEYCODE_DELETE){
                                 handleDelete();
-                            }
-                        } else if (dx > 0) {
+                                return true;
+                            }*/
+                        }
+                        else if (dx > 0) {
                             Log.i(TAG, "MOVING: " + "'right" + dx);
                             Log.i(TAG, "CurrentKey: " + currentKey);
                             if (currentKey == KEYCODE_SPACE) {
                                 handleCursor(-1);
+
                             }
                         }
                         break;
@@ -834,6 +845,8 @@ float mPreviousX;
             public void handleCursor(int direction) {
                 InputConnection ic = getCurrentInputConnection();
                 String str = ic.getTextBeforeCursor(1000, 0).toString();
+                /*ExtractedText et = ic.getExtractedText(new ExtractedTextRequest(), 0);
+                Log.i(TAG, "Cursor Extracted: "+ et);*/
                 Log.i(TAG, "Text Before Cursor: " + str);
                 if(direction > 0) {
                     ic.setSelection(str.length() - 1, str.length());
@@ -847,8 +860,11 @@ float mPreviousX;
                 InputConnection ic = getCurrentInputConnection();
                 String str = ic.getTextBeforeCursor(1000, 0).toString();
                 Log.i(TAG, "Text Before Cursor: " + str);
+                ExtractedText et = ic.getExtractedText(new ExtractedTextRequest(), 0);
+                Log.i(TAG, "Delete Extracted: "+ et);
                     ic.setSelection(0, str.length());
-                    ic.deleteSurroundingText( str.length(), 0);
+//                    ic.deleteSurroundingText( str.length(), str.length());
+                handleBackspace();
 
             }
             public void onRelease(int primaryCode) {
